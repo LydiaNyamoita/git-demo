@@ -31,10 +31,10 @@ function Pizza() {
       <h2>{pizza.name}</h2>
       <p>{pizza.ingredients}</p>
       <p>
-        <Link to="/restaurant_pizzas/new">Add Restaurant Pizza</Link>
+        <Link to="/restaurant_pizzas/new">Adding  Restaurant Pizza</Link>
       </p>
       <p>
-        <Link to={`/pizzas/${Pizza.id}/edit`}>Edit Pizza Ingredients</Link>
+        <Link to={`/pizzas/${Pizza.id}/edit`}>Edit Pizzass Ingredients</Link>
       </p>
     </section>
   );
