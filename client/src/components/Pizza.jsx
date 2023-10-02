@@ -23,7 +23,9 @@ function Pizza() {
     });
   }, [id]);
 
-  if (status === "pending") return <h1>taking long to Loading...</h1>;
+
+  if (status === "pending") return <h1>taking long to Load...</h1>;
+
   if (status === "rejected") return <h1>Error: {error.error}</h1>;
 
   return (
